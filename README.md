@@ -89,4 +89,57 @@ Responsive techniques used:
 ---
 
 ## 🗂 Project Structure
+`
+id-name-assignment1/
+├── index.html
+├── README.md
+├── css/
+│ └── styles.css
+├── js/
+│ └── script.js
+├── assets/
+│ └── images/
+├── docs/
+│ ├── ai-usage-report.md
+│ └── technical-documentation.md
+└── .gitignore
+`
+---
+
+## 🤖 AI Usage Summary
+
+AI tools were used to assist with:
+
+- Generating the initial layout structure  
+- Organizing CSS and implementing responsive design  
+- Implementing JavaScript features  
+- Writing and refining documentation  
+
+All AI-generated suggestions were carefully reviewed, modified, tested, and fully understood before being included in the final project.
+
+Full AI documentation is available in:
+
+`docs/ai-usage-report.md`
+
+---
+
+## ⚠ Known Limitations
+
+- The contact form is front-end only (no backend integration).  
+- No database or email service is connected.  
+- This is a foundational project and will be expanded in future assignments.  
+
+---
+
+## 🌍 Deployment
+
+If deployed using GitHub Pages, the live site can be accessed at:
+
+`https://yourusername.github.io/id-name-assignment1/`
+
+(Replace **yourusername** with your actual GitHub username.)
+
+---
+
+This project was created for academic purposes.
 
