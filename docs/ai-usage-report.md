@@ -1,7 +1,7 @@
 AI Usage Report
 
 Student: Ibrahim Abbas Almuhanna
-Course: [Your Course Name]
+Course: SWE 363
 Assignment: Assignment 1 – Foundation & AI Integration
 
 A) Tools Used & Use Cases
@@ -93,3 +93,4 @@ All final code reflects my understanding and personal modifications.
 Reflection
 
 Using AI responsibly improved my productivity while maintaining full control over the project. I ensured transparency by documenting how AI was used and by understanding every implemented feature.
+
