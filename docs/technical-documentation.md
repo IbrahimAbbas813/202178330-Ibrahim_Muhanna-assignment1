@@ -17,7 +17,9 @@ Contact
 
 It also includes additional interactive features such as a dark/light theme toggle and form validation.
 
-2. File and Folder Structure Explanation
+## 2. File and Folder Structure Explanation
+
+```
 id-name-assignment1/
 ├── index.html
 ├── README.md
@@ -31,6 +33,8 @@ id-name-assignment1/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
 └── .gitignore
+```
+
 
 index.html
 
@@ -227,3 +231,4 @@ Add form email validation pattern checking.
 Conclusion
 
 This project demonstrates foundational web development skills including semantic HTML structure, responsive design using Flexbox and Grid, and JavaScript interactivity. The implementation focuses on clarity, structure, maintainability, and responsiveness across devices.
+
