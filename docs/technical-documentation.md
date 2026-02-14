@@ -91,7 +91,7 @@ Technical documentation
 3. Design Decisions
 Why Semantic HTML?
 
-Semantic elements such as <header>, <main>, <section>, and <footer> were used to improve structure, readability, and accessibility.
+Semantic elements such as `<header>`, `<main>`, `<section>`, and `<footer>` were used to improve structure, readability, and accessibility.
 
 Why Flexbox?
 
@@ -231,4 +231,5 @@ Add form email validation pattern checking.
 Conclusion
 
 This project demonstrates foundational web development skills including semantic HTML structure, responsive design using Flexbox and Grid, and JavaScript interactivity. The implementation focuses on clarity, structure, maintainability, and responsiveness across devices.
+
 
