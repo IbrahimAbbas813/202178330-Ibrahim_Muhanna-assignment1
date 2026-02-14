@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibrahim Abbas Almuhanna | Portfolio</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div>
+        <h1>Ibrahim Abbas Almuhanna</h1>
+        <p class="tagline">
+          Software Engineering student passionate about building modern and efficient web applications.
+        </p>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-btn" type="button">Dark Mode</button>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+
+        <!-- Profile Image -->
+        <img
+          src="assets/images/profile_image.jpeg"
+          alt="Profile photo of Ibrahim Abbas Almuhanna"
+          class="profile-image"
+        />
+
+        <p>
+          I’m Ibrahim Abbas Almuhanna, a Software Engineering student who joined university in 2021.
+          I enjoy developing structured, user-friendly applications and continuously improving my
+          programming and problem-solving skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img
+              src="assets/images/project1.png"
+              alt="Campus Companion App Screenshot"
+              class="project-image"
+            />
+            <h3>Campus Companion App</h3>
+            <p>
+              A student-focused web application concept designed to organize class schedules,
+              deadlines, and campus resources in one clean dashboard interface.
+            </p>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <img
+              src="assets/images/project2.png"
+              alt="Task Tracker App Screenshot"
+              class="project-image"
+            />
+            <h3>Task Tracker Web App</h3>
+            <p>
+              A lightweight task management interface built to practice structured UI design,
+              input validation, and clean front-end architecture.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <p>
+          Email:
+          <a href="mailto:s202178330@kfupm.edu.sa">
+            s202178330@kfupm.edu.sa
+          </a>
+        </p>
+
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+
+          <p id="formStatus"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ibrahim Abbas Almuhanna. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
