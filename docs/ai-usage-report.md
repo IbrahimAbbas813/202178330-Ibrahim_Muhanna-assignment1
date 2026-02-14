@@ -1,96 +1,80 @@
-AI Usage Report
+# AI Usage Report
 
-Student: Ibrahim Abbas Almuhanna
-Course: SWE 363
-Assignment: Assignment 1 – Foundation & AI Integration
+**Student:** Ibrahim Abbas Almuhanna  
+**Assignment:** Assignment 1 – Foundation & AI Integration  
 
-A) Tools Used & Use Cases
-1. ChatGPT
+---
 
-I used ChatGPT to:
+## A) Tools Used & Use Cases
 
-Generate the initial HTML structure for my portfolio (header, sections, footer).
+### ChatGPT
+I used ChatGPT as a development assistant throughout this project. Specifically, it helped with:
 
-Suggest clean and organized CSS layout using Flexbox and Grid.
+- Generating the initial HTML structure (header, sections, footer).
+- Suggesting CSS layout using Flexbox and Grid.
+- Implementing JavaScript features such as:
+  - Dark/Light theme toggle
+  - Contact form validation
+- Improving wording for the About Me section.
+- Structuring the README and documentation files.
 
-Help implement JavaScript features such as:
+All generated code was reviewed and adjusted before being finalized.
 
-Dark/Light theme toggle
+---
 
-Contact form validation and interaction
+## B) Benefits & Challenges
 
-Improve wording for the About Me section and project descriptions.
+### Benefits
 
-Provide explanations for technical documentation.
+- Faster project scaffolding and structure setup.
+- Clear explanations of responsive design concepts.
+- Assistance with debugging layout and formatting issues.
+- Helped organize documentation professionally.
 
-I did not copy code blindly. I used AI suggestions as a starting point and then reviewed and modified them to fit my project requirements.
+### Challenges
 
-B) Benefits & Challenges
-Benefits
+- Some generated code required cleanup and simplification.
+- Minor formatting issues occurred in Markdown and needed correction.
+- I had to carefully review logic to ensure full understanding.
+- File path issues required manual correction.
 
-Helped me scaffold the project structure quickly.
+AI accelerated development, but manual review and testing were necessary to ensure correctness.
 
-Provided guidance on responsive design and breakpoints.
+---
 
-Assisted in understanding JavaScript event handling.
-
-Improved code readability and organization.
-
-Saved time when implementing theme toggle logic and validation.
-
-Challenges
-
-Some AI-generated code required cleanup and simplification.
-
-I needed to adjust styles to match my design preferences.
-
-I had to debug small issues related to file paths and layout alignment.
-
-Understanding how certain JavaScript parts worked required additional review.
-
-AI helped accelerate development, but I still needed to understand and refine the output.
-
-C) Learning Outcomes
+## C) Learning Outcomes
 
 Through using AI in this assignment, I learned:
 
-How to structure a semantic HTML document properly.
+- How to structure semantic HTML properly.
+- How to use Flexbox and CSS Grid for layout.
+- How to implement media queries for responsive design.
+- How JavaScript event listeners work.
+- How `event.preventDefault()` controls form behavior.
+- How to use `localStorage` to save user preferences.
+- The importance of reviewing and testing AI-generated code.
 
-How to use Flexbox and CSS Grid for responsive layouts.
+Using AI improved both my workflow and understanding of front-end development concepts.
 
-How to implement media queries for mobile, tablet, and desktop views.
+---
 
-How JavaScript event listeners work (especially addEventListener).
+## D) Responsible Use & Modifications
 
-How to prevent default form behavior using event.preventDefault().
-
-How to use localStorage to store theme preferences.
-
-The importance of reviewing and testing AI-generated code before using it.
-
-This process improved both my technical skills and my development workflow.
-
-D) Responsible Use & Modifications
-
-I used AI as a development assistant, not as a replacement for my work.
+AI was used responsibly as a support tool, not as a replacement for my work.
 
 To ensure academic integrity:
 
-I reviewed every generated code snippet carefully.
+- I reviewed every code snippet carefully.
+- I renamed variables and adjusted formatting.
+- I removed unnecessary or redundant code.
+- I tested responsiveness using browser developer tools.
+- I ensured I understood each JavaScript feature implemented.
+- I modified structure and styling to match my personal design.
 
-I modified structure, variable names, and formatting to match my project.
+All final code reflects my understanding and modifications.
 
-I removed unnecessary code suggested by AI.
+---
 
-I tested responsiveness manually using browser developer tools.
+## Reflection
 
-I ensured I understood how each JavaScript function worked.
-
-I adjusted styling to reflect my own design decisions.
-
-All final code reflects my understanding and personal modifications.
-
-Reflection
-
-Using AI responsibly improved my productivity while maintaining full control over the project. I ensured transparency by documenting how AI was used and by understanding every implemented feature.
-
+AI tools improved productivity and helped clarify technical concepts. However, the final implementation required my own review, testing, and refinement to ensure quality and correctness.
