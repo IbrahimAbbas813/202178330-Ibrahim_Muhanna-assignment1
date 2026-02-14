@@ -1,23 +1,25 @@
-Technical Documentation
+# Technical Documentation
 
-Student: Ibrahim Abbas Almuhanna
-Assignment: Assignment 1 – Foundation & AI Integration
+**Student:** Ibrahim Abbas Almuhanna  
+**Assignment:** Assignment 1 – Foundation & AI Integration  
 
-1. Project Overview
+---
 
-This project is a responsive personal portfolio web application built using HTML, CSS, and JavaScript. The purpose of this project is to demonstrate foundational front-end development skills, responsive design principles, and basic JavaScript interactivity.
+## 1. Project Overview
 
-The website includes three required sections:
+This project is a responsive personal portfolio website built using HTML, CSS, and JavaScript. The goal is to demonstrate foundational front-end development skills including semantic structure, responsive design, and interactive functionality.
 
-About Me
+The website includes:
 
-Projects
+- About Me section
+- Projects section
+- Contact form
+- Dark/Light theme toggle
+- Form validation interaction
 
-Contact
+---
 
-It also includes additional interactive features such as a dark/light theme toggle and form validation.
-
-## 2. File and Folder Structure Explanation
+## 2. File and Folder Structure
 
 ```
 id-name-assignment1/
@@ -35,201 +37,97 @@ id-name-assignment1/
 └── .gitignore
 ```
 
+### File Explanation
 
-index.html
+- **index.html** – Main HTML structure of the website.
+- **css/styles.css** – All styling including layout and responsive design.
+- **js/script.js** – JavaScript functionality (theme toggle, form validation, dynamic year).
+- **assets/images/** – Stores profile and project images.
+- **docs/** – Contains AI usage report and technical documentation.
+- **README.md** – Project overview and instructions.
 
-Contains the main structure of the website, including:
+---
 
-Header and navigation
+## 3. Design Decisions
 
-About section
-
-Projects section
-
-Contact form
-
-Footer
-
-css/styles.css
-
-Contains all styling rules:
-
-Base styling
-
-Layout using Flexbox and Grid
-
-Responsive breakpoints
-
-Dark mode styles
-
-js/script.js
-
-Contains JavaScript functionality:
-
-Dark/Light theme toggle with localStorage
-
-Contact form validation and interaction
-
-Automatic footer year
-
-assets/images/
-
-Stores all image files including:
-
-Profile image
-
-Project screenshots
-
-docs/
-
-Contains documentation files:
-
-AI usage report
-
-Technical documentation
-
-3. Design Decisions
-Why Semantic HTML?
+### Why Semantic HTML?
 
 Semantic elements such as `<header>`, `<main>`, `<section>`, and `<footer>` were used to improve structure, readability, and accessibility.
 
-Why Flexbox?
+---
+
+### Why Flexbox?
 
 Flexbox was used for:
 
-Header layout (aligning name and navigation)
+- Header layout (aligning name and navigation).
+- Form layout and spacing.
+- General alignment of elements.
 
-Form layout
+Flexbox is efficient for one-dimensional layout control.
 
-General alignment and spacing
+---
 
-Flexbox is ideal for one-dimensional layouts and alignment control.
-
-Why CSS Grid?
+### Why CSS Grid?
 
 CSS Grid was used for:
 
-Project cards layout
+- Organizing project cards into columns.
 
-Grid allows clean two-column layout on larger screens and easy transition to one column on smaller devices.
+Grid allows easy transition from two-column layout (desktop) to one-column layout (mobile).
 
-Why Breakpoints?
+---
 
-Media queries were implemented to ensure the website is responsive across devices:
+### Why Breakpoints?
 
-Mobile: up to 600px
+Media queries were implemented for:
 
-Tablet: 601px–900px
-
-Desktop: 901px and above
+- Mobile: up to 600px
+- Tablet: 601px–900px
+- Desktop: 901px and above
 
 Responsive adjustments include:
 
-Navigation stacking on small screens
+- Navigation stacking on smaller screens.
+- Project cards switching to one column on mobile.
+- Image resizing for better usability.
 
-Project cards switching to one column on mobile
+This ensures compatibility across devices.
 
-Image resizing for better usability
+---
 
-This ensures compatibility across desktop, tablet, and mobile devices.
+## 4. JavaScript Features
 
-4. JavaScript Features
-1. Dark / Light Theme Toggle
-What it does:
+### Dark / Light Theme Toggle
 
-Allows users to switch between dark and light mode.
+**What it does:**
 
-Saves user preference using localStorage.
+- Allows users to switch between light and dark themes.
+- Saves user preference using `localStorage`.
 
-How it works:
+**How it works:**
 
-A button toggles a .dark class on the <body>.
+- A button toggles a `.dark` class on the `<body>`.
+- CSS applies different styles when `.dark` is active.
+- `localStorage` stores the selected theme.
+- On page load, JavaScript checks saved preference and applies it.
 
-CSS applies different styles when .dark is active.
+---
 
-localStorage stores the selected theme.
+### Contact Form Interaction
 
-On page load, JavaScript checks stored preference and applies it.
+**What it does:**
 
-This demonstrates:
+- Prevents default form submission.
+- Validates that all fields are filled.
+- Displays an error message if fields are empty.
+- Displays a success message if valid.
+- Clears the form after submission.
 
-DOM manipulation
+**How it works:**
 
-Event handling
-
-Persistent client-side storage
-
-2. Contact Form Interaction
-What it does:
-
-Prevents the default form submission behavior.
-
-Validates that all fields are filled.
-
-Displays an error message if fields are empty.
-
-Displays a success message if valid.
-
-Clears the form after submission.
-
-How it works:
-
-Uses addEventListener("submit")
-
-Uses event.preventDefault() to stop page refresh
-
-Checks input values using JavaScript
-
-Updates text content dynamically
-
-Uses form.reset() to clear inputs
-
-This demonstrates:
-
-Event handling
-
-Conditional logic
-
-User feedback implementation
-
-DOM updates
-
-5. Performance Considerations
-
-Images are stored locally to ensure fast loading.
-
-CSS and JS are separated for maintainability.
-
-Minimal external dependencies are used.
-
-Layout is lightweight and optimized for responsiveness.
-
-6. Known Limitations
-
-The contact form is front-end only and does not send real emails.
-
-No backend integration or database connection.
-
-No advanced animations or transitions.
-
-Accessibility improvements (ARIA roles, advanced keyboard navigation) could be further enhanced.
-
-No production-level deployment optimizations.
-
-7. Future Improvements
-
-Connect contact form to a backend service.
-
-Add animations and improved UI polish.
-
-Add more real projects with live links.
-
-Improve accessibility compliance.
-
-Add form email validation pattern checking.
-
-Conclusion
-
-This project demonstrates foundational web development skills including semantic HTML structure, responsive design using Flexbox and Grid, and JavaScript interactivity. The implementation focuses on clarity, structure, maintainability, and responsiveness across devices.
-
-
+- Uses `addEventListener("submit")`.
+- Uses `event.preventDefault()` to stop page refresh.
+- Checks input values using conditional logic.
+- Updates text content dynamically.
+- Uses `form.reset()` to cle
