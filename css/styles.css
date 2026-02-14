@@ -86,14 +86,18 @@ header h1 {
 /* =========================
    About
 ========================= */
+/* About: profile photo - optimized for formal ID-style portraits */
 .profile-image {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 16px;
-  border: 1px solid #ddd;
-  margin: 14px 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;          /* prevents stretching */
+  object-position: center 20%; /* keeps face centered nicely */
+  border-radius: 50%;         /* professional circle */
   display: block;
+  margin: 16px auto;          /* center image */
+  border: 3px solid #ffffff;  /* clean edge on white background */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  background: #ffffff;        /* matches your photo background */
 }
 
 /* =========================
@@ -221,9 +225,10 @@ footer {
   }
 
   .profile-image {
-    width: 140px;
-    height: 140px;
-  }
+  width: 150px;
+  height: 150px;
+}
+
 }
 
 /* Tablet: 601px–900px */
