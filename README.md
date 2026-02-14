@@ -89,21 +89,23 @@ Responsive techniques used:
 ---
 
 ## 🗂 Project Structure
-`
+
+```
 id-name-assignment1/
 ├── index.html
 ├── README.md
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ └── script.js
+│   └── script.js
 ├── assets/
-│ └── images/
+│   └── images/
 ├── docs/
-│ ├── ai-usage-report.md
-│ └── technical-documentation.md
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
 └── .gitignore
-`
+```
+
 ---
 
 ## 🤖 AI Usage Summary
